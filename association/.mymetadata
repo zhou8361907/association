@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="association"
+  id="myeclipse.1511778450187"
+  context-root="/association"
+  j2ee-spec="5.0"
+  archive="association.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

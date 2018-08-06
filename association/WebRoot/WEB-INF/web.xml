@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>as_login</servlet-name>
+    <servlet-class>as_login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>as_register</servlet-name>
+    <servlet-class>as_register</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>as_associ</servlet-name>
+    <servlet-class>as_associ</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>as_event</servlet-name>
+    <servlet-class>as_event</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>event_put</servlet-name>
+    <servlet-class>event_put</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>as_put</servlet-name>
+    <servlet-class>as_put</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>event_search</servlet-name>
+    <servlet-class>event_search</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>as_join</servlet-name>
+    <servlet-class>as_join</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>event_join</servlet-name>
+    <servlet-class>event_join</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>events_attend</servlet-name>
+    <servlet-class>events_attend</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>event_zan</servlet-name>
+    <servlet-class>event_zan</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>as_follow</servlet-name>
+    <servlet-class>as_follow</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>as_exit</servlet-name>
+    <servlet-class>as_exit</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>manage</servlet-name>
+    <servlet-class>manage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>manage_appli</servlet-name>
+    <servlet-class>manage_appli</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>manage_appli_no</servlet-name>
+    <servlet-class>manage_appli_no</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>event_finish</servlet-name>
+    <servlet-class>event_finish</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>attend_show</servlet-name>
+    <servlet-class>attend_show</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>as_search</servlet-name>
+    <servlet-class>as_search</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>manage_as</servlet-name>
+    <servlet-class>manage_as</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>manage_event</servlet-name>
+    <servlet-class>manage_event</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>manage_choose</servlet-name>
+    <servlet-class>manage_choose</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>as_login</servlet-name>
+    <url-pattern>/servlet/as_login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>as_register</servlet-name>
+    <url-pattern>/servlet/as_register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>as_associ</servlet-name>
+    <url-pattern>/servlet/as_associ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>as_event</servlet-name>
+    <url-pattern>/servlet/as_event</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>event_put</servlet-name>
+    <url-pattern>/servlet/event_put</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>as_put</servlet-name>
+    <url-pattern>/servlet/as_put</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>event_search</servlet-name>
+    <url-pattern>/servlet/event_search</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>as_join</servlet-name>
+    <url-pattern>/servlet/as_join</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>event_join</servlet-name>
+    <url-pattern>/servlet/event_join</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>events_attend</servlet-name>
+    <url-pattern>/servlet/events_attend</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>event_zan</servlet-name>
+    <url-pattern>/servlet/event_zan</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>as_follow</servlet-name>
+    <url-pattern>/servlet/as_follow</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>as_exit</servlet-name>
+    <url-pattern>/servlet/as_exit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>manage</servlet-name>
+    <url-pattern>/servlet/manage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>manage_appli</servlet-name>
+    <url-pattern>/servlet/manage_appli</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>manage_appli_no</servlet-name>
+    <url-pattern>/servlet/manage_appli_no</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>event_finish</servlet-name>
+    <url-pattern>/servlet/event_finish</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>attend_show</servlet-name>
+    <url-pattern>/servlet/attend_show</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>as_search</servlet-name>
+    <url-pattern>/servlet/as_search</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>manage_as</servlet-name>
+    <url-pattern>/servlet/manage_as</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>manage_event</servlet-name>
+    <url-pattern>/servlet/manage_event</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>manage_choose</servlet-name>
+    <url-pattern>/servlet/manage_choose</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
