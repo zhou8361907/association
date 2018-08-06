@@ -1,0 +1,72 @@
+#product_bar{
+	margin-top: 3rem;
+	width: 100%;
+	}
+#product_bar tr{
+		font-size: 25px;
+	}
+	#product_bar tr td{
+		color: #000000;
+	}
+.container .product_frame{
+	border: 1px solid #D0D0D0;
+	width: 100%;
+	margin-bottom: 2rem;	
+}
+.container .product_frame img{
+	height: 6rem;
+	margin: 1rem 4rem;
+}
+.container .product_frame span{
+	width: 5rem;
+}
+.container .product_frame h3{
+	display: inline;
+	margin-left: 10rem;
+	}
+.container .product_frame button{
+	display: inline;
+}
+.container .product_frame input{
+	text-align: center;
+	width: 1.2rem;
+}
+.container .product_frame .Checkbox{
+margin-left: 1rem;
+}
+.container .product_frame .div_two{
+	margin-top: -5rem;
+	margin-left: 20rem;
+}
+
+.container .product_frame div .c_reduce {
+	margin-top: -5rem;
+	margin-left:5rem;
+}
+.container .product_frame div .c_all_money{
+	margin-left: 5.5rem;
+	margin-right: 2rem;
+}
+.container .product_frame div a{
+	 font-size: 1.5rem;
+	 margin-left: 1rem;
+}
+.product_frame1{
+	height: 4rem;
+	background-color: #AAAAAA;
+	font-size: 1rem;
+} 
+.product_frame1 input{
+	margin-top: 1.4rem;
+	margin-left: 1rem;
+}
+ .product_frame1 a{
+	margin-left: 5rem;
+}
+ .product_frame1 a:link{color: #000000;}
+.product_frame1 #p1{
+	margin-left: 18rem;
+}
+ .product_frame1 #p2{
+	margin-left: 5rem;
+}

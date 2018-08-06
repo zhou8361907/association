@@ -1,0 +1,165 @@
+nav{
+	background-color: #77777;	
+}
+
+.container header h2,h3{
+	white-space: nowrap;
+	}
+
+.loginbg #textone{
+	position: absolute;
+	top: 30px;	
+}
+.loginbg #texttwo{
+	position: absolute;
+	top: 90px;	
+}
+
+.loginip:focus{
+  border:1px solid #ff7496;
+}
+
+#choose{
+	top:19px;
+	white-space: nowrap;
+}
+#line-1{
+	background: #AAAAAA;
+	margin-top:30px;
+}
+#line-2{
+	background:#AAAAAA;
+	margin-top:4px;
+}
+@media only screen and (min-width:768px ) {
+	
+	.loginbg{
+	margin-top: 40px;
+}
+	.loginip{
+	width: 250px;
+	height: 35px;	
+	text-indent: 10px;
+}
+	.loginbg .checkbox{
+	position: absolute;
+	left: 45px;
+	top: 155px;
+	}
+.checkbox h4{
+	position: absolute;
+	top:-10px;
+	color: #AAAAAA;
+	white-space: nowrap;
+}
+.checkbox a{
+	position:absolute;
+	left: 100px;
+	top: 0;
+}
+.pure-button{
+	position: absolute;
+	left: 100px;
+	top: 240px;
+}
+header{
+	margin-top: 80px;
+	margin-left: 15px;
+}
+.bottom{
+	margin-left: -50px;
+}
+.bottom-ico{
+	position: absolute;
+	top:550px;
+}
+.bottom-ico .fa{
+	font-size: 25px;
+}
+.bottom #line-1{
+	position:absolute;
+	top:470px;
+	left: -10;
+}
+.bottom #line-2{
+	position:absolute;
+	top:498px;
+	left: -10;
+}
+.bottom h2{
+	position: absolute;
+	left: -10px;
+}
+}
+@media only screen and (max-width:768px) {
+.checkbox h4{
+	position: absolute;
+	top:-10px;
+	color: #AAAAAA;
+	white-space: nowrap;
+}
+.checkbox a{
+	position:absolute;
+	left: 70px;
+	top: 0;
+}
+.pure-button{
+	position: absolute;
+	left: 50px;
+	top: 200px;
+}
+
+.bottom{
+	margin-top: 280px;
+	left: 20%;
+}
+
+.bottom-ico{
+	position: absolute;
+	top:520px;
+	left: -50px;
+}
+.bottom-ico .fa{
+		font-size: 25px;
+	}
+	header{
+	margin-top: 50px;
+}
+.bottom{
+	position: absolute;
+		top: -400px;
+		margin-left: 5px;
+		height: 100px;
+		width: 300px;
+}
+.bottom h2{
+	position: absolute;
+	left: 20px;
+	font-size: 15px;
+}
+.bottom #line-1{
+	position: absolute;
+	top:465px;
+	left: 0;
+}
+.bottom #line-2{
+	position: absolute;	
+		top: 490px;
+		left:150px;
+		border:2px black;
+	}
+.loginbg .checkbox{
+	position: absolute;
+	left: 30px;
+	top: 155px;
+	}
+.loginbg{
+	margin-left: 20%;
+	margin-top: 10px;
+	
+}
+header{
+	margin-left: 20%;
+}
+
+}

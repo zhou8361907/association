@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>品牌管理</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		
+		<script src="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"></script>
+		<link rel="stylesheet" type="text/css" href="css/frame.css"/>
+	</head>
+
+	<body class="container-fluid frame col-lg-11">
+		<div class="container-fluid "><!--frame调整整体位置-->
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<h1 class="page-header">
+                        	品牌管理<small>品牌列表</small>
+                     </h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<!-- 分类列表--bootstrap高级表格使用 -->
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							品牌列表
+						</div>
+						<div class="panel-body">
+							<!--table-responsive响应式表格，会自动添加滚动条-->
+							<div class="table-responsive">							
+								<a href="/admin/adduser.html"><input class="btn btn-success" type="button" value="添加品牌"></a>
+								<table class="table table-striped table-bordered table-hover" id="dataTables-example">
+									<thead>
+										<tr>
+											<th>编号</th>
+											<th>品牌名称</th>
+											<th>所属国家</th>
+											<th>排序</th>
+											<th>操作</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr class="odd gradeX">
+											<td>1</td>
+											<td class="center">尼康</td>
+											<td>数码</td>
+											<td><input type="text" style="width: 3em;"></td>
+											<td>
+												<a title="修改" class="t-edit glyphicon glyphicon-pencil"></a>
+												<a title="删除" class="t-del glyphicon glyphicon-trash"></a>
+											</td>
+										</tr>
+										<tr class="even gradeC">
+											<td>2</td>
+											<td class="center">森马</td>
+											<td>服装</td>
+											<td><input type="text" style="width: 3em;"></td>
+											<td>
+												<a title="修改" class="t-edit glyphicon glyphicon-pencil"></a>
+												<a title="删除" class="t-del glyphicon glyphicon-trash"></a>
+											</td>
+										</tr>
+										<tr class="even gradeC">
+											<td>3</td>
+											<td class="center">iPhone</td>
+											<td>手机</td>
+											<td><input type="text" style="width: 3em;"></td>
+											<td>
+												<a title="修改" class="t-edit glyphicon glyphicon-pencil"></a>
+												<a title="删除" class="t-del glyphicon glyphicon-trash"></a>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+
+							<!--	<div class="container">-->
+							<!--分页显示-->
+							<div class="row">
+								<div class="col-md-6">
+									<div class="pagination" style="margin: 0px;" role="alert" aria-live="polite" aria-relevant="all">显示 1 到 10 页 记录数57</div>
+								</div>
+								<div class="col-md-6" style="text-align: right;">
+									<ul class="pagination" style="margin: 0px;">
+										<li>
+											<a href="#" aria-label="Previous">
+												<span aria-hidden="true">&laquo;</span>
+											</a>
+										</li>
+										<li>
+											<a href="#">1</a>
+										</li>
+										<li>
+											<a href="#">2</a>
+										</li>
+										<li>
+											<a href="#">3</a>
+										</li>
+										<li>
+											<a href="#">4</a>
+										</li>
+										<li>
+											<a href="#">5</a>
+										</li>
+										<li>
+											<a href="#" aria-label="Next">
+												<span aria-hidden="true">&raquo;</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<!--分页显示-->
+							<!--</div>-->
+						</div>
+					</div>
+					<!--表格结束 -->
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

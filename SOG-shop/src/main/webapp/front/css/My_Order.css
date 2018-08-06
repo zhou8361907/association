@@ -1,0 +1,93 @@
+
+.row{
+	width: 100%;
+}
+.title{
+	margin-bottom: 100px;
+}
+.title1{
+	position: relative;
+	top: 20px;
+	height: 42px;
+	border-bottom: 2px solid #DDDDDD;
+	padding-top: 10px ;	
+	padding-bottom: -1px;
+	
+}
+.title1 .title2{
+	position: relative;
+	display: inline;
+	width: 100px;
+	align-content: center;
+	border-bottom: 1px solid #DDDDDD;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	}
+	.title1 .title2 #frame1{
+		border-right: 1px solid #DDDDDD;
+	}
+.title1 .title2:hover{
+	color: red;
+	cursor: pointer;
+}
+.shop_description{
+	height: 50px;
+	background-color: #DDDDDD;
+	margin-top: 50px;	
+}
+.shop_description span{
+	position: relative;
+	top:12px;
+}
+.title1 .shop{
+	height: auto;	
+}
+.title .shop{
+	margin-top: 30px;
+	border: 2px solid #AAAAAA;
+}
+.title .shop .shop_top{	
+	width: 102.70%;
+	margin-left: -15px;
+	height: 30px;
+	background-color:#DDDDDD;
+}
+.title .shop .shop_bottom{
+	height: 100px;	
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+.title .shop .shop_bottom img{
+	height: 90px;
+}
+.title .shop .shop_bottom a{
+	display: block;
+	position: relative;
+	top:-75px;
+	left: 75px;
+	width: 200;
+	}
+.title .shop .shop_bottom .money{
+	margin-left: 300px ;
+}
+.title .shop .shop_bottom .num{
+	margin-left: 90px ;
+}
+.title .shop .shop_bottom .money2{
+	margin-left: 120px ;
+}
+.title .shop .shop_bottom .state{
+	position: relative;
+	width: 30%;
+	top:-90px;
+	left:770px;
+}
+.title .shop .shop_bottom .btn{
+	position:  relative;
+	color: white;
+	background-color: #99BBFF;	
+	left: 1010px;
+	top: -125px;
+	height: 30px;
+	width:80px;
+}

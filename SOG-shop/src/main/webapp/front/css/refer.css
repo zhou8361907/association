@@ -1,0 +1,127 @@
+/*old_address指默认选中的切radio为true的
+
+new_address默认选中的切radio为false的*/
+p{
+	font-size: 20px;
+	margin-top: 15px;
+}
+span{
+	font-size: 20px;
+}
+defult_address1.row{
+	width: 100%;
+}
+.confirm-address{
+	margin-left: 13%;
+	width: 80%;
+	border-bottom:1px solid #AAAAAA ;
+}
+
+.old_address,.new_address{
+	margin-top: 30px;
+	margin-left: 13%;
+	padding: 10px 10px;
+}
+
+.old_address input{
+	margin-left: 30px;
+}
+
+.old_address .dizhi,.new_address .dizhi{
+	margin-left: 30px;
+}
+
+.old_address .modify{
+	text-align: right;
+	margin-left: 150px;
+}
+
+.old_address .glyphicon{
+	font-size: 15px;
+	margin-right: 10px;
+}
+.old_address{
+	border: 1px solid red;
+	width: 80%;
+	background-color: lightcoral;
+}
+
+.new_address{
+	width: 80%;
+}
+.new_address .modify {
+	display: none;
+	text-align: right;	
+}
+.new_address input{	
+	margin-left: 30px;
+}
+.new_address .glyphicon{
+	visibility: hidden;
+	font-size: 15px;
+	margin-right:10px
+}
+.new_address:hover{
+	background-color: lightcoral;
+	cursor: pointer;	
+}
+.h3{
+	margin-top: 50px;
+	margin-left: 8%;
+}
+.title{
+	margin-left: 15%;
+	font-family: "微软雅黑";
+	font-size: 25px;
+}
+.title span{
+	
+}
+ .product_frame{
+	border: 1px solid #D0D0D0;
+	width: 70%;
+	margin-top: 40px;
+	margin-left: 15%;
+	margin-bottom: 2rem;	
+}
+.product_frame img{
+	height: 6rem;
+	margin: 1rem 4rem;
+}.product_frame img{
+	height: 6rem;
+	margin: 1rem 1rem;
+}
+.product_frame span{
+	width: 5rem;
+}
+.product_frame h3{
+	display: inline;
+	margin-left: 10rem;
+	}
+.product_frame button{
+	display: inline;
+}
+.product_frame input{
+	text-align: center;
+	width: 1.2rem;
+}
+.product_frame .Checkbox{
+margin-left: 1rem;
+}
+.product_frame .div_two{
+	margin-top: -5rem;
+	margin-left: 20rem;
+}
+
+.product_frame div .c_reduce {
+	margin-top: -5rem;
+	margin-left:5rem;
+}
+.product_frame div .c_all_money{
+	margin-left: 5.5rem;
+	margin-right: 2rem;
+}
+.product_frame div lable{
+	 font-size: 1.5rem;
+	 margin-left: 9.5rem;
+}

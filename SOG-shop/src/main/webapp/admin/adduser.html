@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>用户管理</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="style/index.css" />
+
+		<body style="background-color: #F5F5DC;">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<h1 class="page-header">
+                          	用户管理 <small>添加用户</small>
+                     </h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<!-- 用户列表--bootstrap高级表格使用 -->
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								添加用户
+							</div>
+							<div class="panel-body">
+								<form>
+									<div class="form-group">
+										<label for="txtAccount">账户</label>
+										<input type="text" class="form-control" id="txtAccount" placeholder="账号">
+									</div>
+									<div class="form-group">
+										<label for="txtUserName">姓名</label>
+										<input type="text" class="form-control" id="txtUserName" placeholder="姓名">
+									</div>
+									<div class="form-group">
+										<label for="txtMobile">手机号</label>
+										<input type="text" class="form-control" id="txtMobile" placeholder="手机号">
+									</div>
+									<div class="form-group">
+										<label for="txtEmail">邮箱</label>
+										<input type="email" class="form-control" id="txtEmail" placeholder="电子邮件">
+									</div>
+									<div class="form-group">
+										<label for="txtPassword">密码</label>
+										<input type="password" class="form-control" id="txtPassword" placeholder="密码">
+									</div>
+									<div class="form-group">
+										<label for="txtRole">角色</label>
+										<select id="txtRole" class="form-control">
+											<option>管理员</option>
+											<option>库管员</option>
+											<option>财务员</option>
+											<option>销售员</option>
+										</select>
+									</div>
+									<button type="submit" class="btn btn-success">保存</button>
+									<button type="reset" class="btn btn-info">重置</button>
+								</form>
+							</div>
+						</div>
+					</div>
+					<!--表格结束 -->
+				</div>
+			</div>
+			</div>
+		</body>
+
+</html>

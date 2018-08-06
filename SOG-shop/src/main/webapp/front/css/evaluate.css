@@ -1,0 +1,112 @@
+.form1{
+	margin-top:60px;
+	height: 690px;
+	width: 950px;
+	margin-left: 15%;
+}
+
+.top{
+	background-color: #E8E8E8;
+	height: 37px;
+	border-bottom:2px solid red;
+	
+}
+.top h3{
+	display: inline;
+	background-color: #FF0000;
+	position: relative;
+	color: white;
+	top: 4px;
+	padding-left: 40px;
+	padding-right:49px;
+	padding-top: 2px;
+	padding-bottom: 3px;
+	
+
+}
+.mid{
+	border:1px solid #F0F0F0;
+	height: 529px;
+	width: 100%;
+	
+}
+
+.mid .E_left{	
+	height: 211px;
+	width: 260px;
+	margin-top: 20px;
+}
+.mid .E_left .E_img{
+	position: relative;
+	height: 191px;
+	width: 130px;
+	top:20px;
+	left: 110px;
+}
+.mid .E_left .E_img a img{
+	border: 1px solid #f0f0f0;	
+}
+.mid .E_left div{
+}
+.mid .E_right{
+	width: 570px;
+	height: 271px;	
+	position: relative;
+	top:-201px;
+	left: 260px;	
+}
+.mid .E_right .E_right-top{
+	height: 32px;
+	margin-top: 10px;
+	padding-top: 3px;
+}
+.mid .E_right .E_right-top input{
+	margin-left: 50px;
+	margin-top: 5px;
+}
+.mid .E_right_mid{
+	margin-top: 20px;
+	margin-left: 3px; 	
+	height: 171px;
+	width: 570px;
+	border: 1px solid #f0f0f0;
+}
+.mid .E_right .E_right_mid textarea{
+	width: 562px;
+	height: 128px;
+	margin-left: 3px;
+	margin-top: 3px;
+}
+.mid .mid_mid{
+	width: 100%; 
+	border: 1px dashed #f0f0f0;
+	position: relative;
+	top:-190px;
+}
+.mid .E_bottom{
+	position: relative;
+	top:-120px;
+	left: 150px;
+}
+.mid .E_bottom .E_bottom_1{
+	height: 48px;
+	width: 130px;
+	text-align: center;
+	background-color: #F0F0F0;
+	color: #A0A0A0;
+	padding-top: 15px;
+}
+.E_bottom_2{
+	position: relative;
+	top: -170px;
+	left: 340px;
+	font-size: 15px;
+}
+.E_bottom_2 select{
+	margin-left: 30px;
+}
+.form1 button{
+	width:100px;
+	margin-left: 40%;
+	margin-top: 30px;
+}
